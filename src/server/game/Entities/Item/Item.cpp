@@ -574,6 +574,7 @@ uint32 Item::GetSpell()
                 case ITEM_SUBCLASS_WEAPON_POLEARM: return  200;
                 case ITEM_SUBCLASS_WEAPON_SWORD:   return  201;
                 case ITEM_SUBCLASS_WEAPON_SWORD2:  return  202;
+                case ITEM_SUBCLASS_WEAPON_WARGLAIVES: return 80899;
                 case ITEM_SUBCLASS_WEAPON_STAFF:   return  227;
                 case ITEM_SUBCLASS_WEAPON_DAGGER:  return 1180;
                 case ITEM_SUBCLASS_WEAPON_THROWN:  return 2567;

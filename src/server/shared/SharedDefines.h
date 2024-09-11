@@ -3025,10 +3025,11 @@ enum SkillType
     SKILL_PET_WASP                 = 785,
     SKILL_PET_EXOTIC_RHINO         = 786,
     SKILL_PET_EXOTIC_CORE_HOUND    = 787,
-    SKILL_PET_EXOTIC_SPIRIT_BEAST  = 788
+    SKILL_PET_EXOTIC_SPIRIT_BEAST  = 788,
+    SKILL_WARGLAIVES               = 789
 };
 
-#define MAX_SKILL_TYPE               789
+#define MAX_SKILL_TYPE               790
 
 constexpr SkillType SkillByLockType(LockType locktype)
 {
@@ -3584,7 +3585,9 @@ enum SpellFamilyNames
     // 14 - unused
     SPELLFAMILY_DEATHKNIGHT = 15, // TITLE Death Knight
     // 16 - unused
-    SPELLFAMILY_PET         = 17  // TITLE Pet
+    SPELLFAMILY_PET         = 17, // TITLE Pet
+    SPELLFAMILY_MONK        = 18, // TITLE Monk
+    SPELLFAMILY_DEMONHUNTER = 19  // TITLE Demon Hunter
 };
 
 enum TradeStatus

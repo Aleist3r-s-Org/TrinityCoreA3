@@ -691,6 +691,7 @@ uint32 AuctionBotSeller::GetBuyModifier(ItemTemplate const* prototype)
                 case ITEM_SUBCLASS_WEAPON_AXE:
                 case ITEM_SUBCLASS_WEAPON_MACE:
                 case ITEM_SUBCLASS_WEAPON_SWORD:
+                case ITEM_SUBCLASS_WEAPON_WARGLAIVES:
                 case ITEM_SUBCLASS_WEAPON_FIST:
                 case ITEM_SUBCLASS_WEAPON_DAGGER:
                     return 1200;
